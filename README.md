@@ -31,7 +31,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshots/Screenshot%201.png)
+
+![](./screenshots/Screenshot%202.png)
+
+![](./screenshots/Screenshot%203.png)
+
+![](./screenshots/Screenshot%204.png)
+
+![](./screenshots/Screenshot%205.png)
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
@@ -54,7 +62,9 @@ I really struggled with the Javascript functionalty of when a number has already
 
 After a few hours of trying to search Google, I asked ChatGPT which gave me some working code. I then modified it to fit my use case.
 
-The reset of the Javascript was relatively easy to implement.
+The rest of the Javascript was relatively easy to implement.
+
+I found trying to reduce the size of the provided SVG difficult and in the end I need to apply a scaleing factor instead of explicitly setting the width and height. This is not pixel perfect but it works.
 
 ### Continued development
 

@@ -23,6 +23,9 @@ body {
   font-family: "Overpass";
 }
 
+#container {
+}
+
 .container,
 .container-ty {
   width: 412px;
@@ -136,7 +139,7 @@ body {
   display: none;
 }
 
-.img-ty {
+.ty-svg {
   margin-top: 1.3rem;
 }
 
@@ -164,4 +167,65 @@ body {
   line-height: 2.4rem;
   color: var(--light-grey);
   margin-top: 0.7rem;
+}
+
+@media screen and (max-width: 375px) {
+  .container,
+  .container-ty {
+    width: 327px;
+    height: 360px;
+    padding: 24px 24px 32px 24px;
+  }
+
+  .heading {
+    font-size: 2.4rem;
+    margin: 16px 0 10px 0;
+  }
+
+  .request {
+    font-size: 1.4rem;
+    width: 27.9rem;
+    margin: 0 0 24px 0;
+    line-height: 22px;
+  }
+
+  .rating-grid {
+    width: 28.1rem;
+    margin: 0;
+  }
+
+  .rating-number-item {
+    width: 4.2rem;
+    height: 4.2rem;
+  }
+
+  .rating-number {
+    font-size: 1.4rem;
+  }
+
+  .btn {
+    padding: 0;
+    margin: 24px 0 0 0;
+  }
+
+  .ty-svg {
+    transform: scale(0.8);
+  }
+
+  .ty-rating {
+    margin: 24px 0;
+    padding: 5px 12px;
+  }
+
+  .ty {
+    margin: 0;
+    font-size: 24px;
+    line-height: 30.5px;
+  }
+
+  .ty-text {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    line-height: 22px;
+  }
 }
